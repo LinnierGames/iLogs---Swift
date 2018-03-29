@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		E9080D7E1F968C8C00F8EEA6 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9080D7D1F968C8C00F8EEA6 /* CustomTableViewCell.swift */; };
 		E9080D801F968D3400F8EEA6 /* MomentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9080D7F1F968D3400F8EEA6 /* MomentViewController.swift */; };
-		E9080D821F9690A300F8EEA6 /* FetchedResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9080D811F9690A300F8EEA6 /* FetchedResultsTableViewController.swift */; };
 		E9365AA41FAC0E50004BE58D /* TimersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9365AA31FAC0E4F004BE58D /* TimersController.swift */; };
 		E963AFE91F789A760008EDEA /* Timers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E963AFE71F789A760008EDEA /* Timers.xcdatamodeld */; };
 		E963AFEE1F789EB80008EDEA /* TimersDirectoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963AFED1F789EB80008EDEA /* TimersDirectoryTableViewController.swift */; };
 		E963AFF01F78A09E0008EDEA /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963AFEF1F78A09E0008EDEA /* StopWatch.swift */; };
 		E963AFF21F78A4010008EDEA /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963AFF11F78A4010008EDEA /* Directory.swift */; };
-		E9854B191F969B780030B533 /* UniversalExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9854B181F969B780030B533 /* UniversalExtentions.swift */; };
+		E97AE203206D9BDD0014CE18 /* UniversalExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97AE201206D9BDD0014CE18 /* UniversalExtentions.swift */; };
+		E97AE204206D9BDD0014CE18 /* FetchedResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97AE202206D9BDD0014CE18 /* FetchedResultsTableViewController.swift */; };
 		E9854B1B1F9AC5B60030B533 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9854B1A1F9AC5B60030B533 /* TextView.swift */; };
 		E99CDC021F9D2C4C00BE2018 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CDC011F9D2C4C00BE2018 /* TopViewController.swift */; };
 		E9A225DE1FA6C688002A7575 /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A225DD1FA6C688002A7575 /* Moment.swift */; };
@@ -56,13 +56,13 @@
 /* Begin PBXFileReference section */
 		E9080D7D1F968C8C00F8EEA6 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		E9080D7F1F968D3400F8EEA6 /* MomentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentViewController.swift; sourceTree = "<group>"; };
-		E9080D811F9690A300F8EEA6 /* FetchedResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FetchedResultsTableViewController.swift; path = "../../../../Swift Source Files/FetchedResultsTableViewController.swift"; sourceTree = "<group>"; };
 		E9365AA31FAC0E4F004BE58D /* TimersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersController.swift; sourceTree = "<group>"; };
 		E963AFE81F789A760008EDEA /* Timers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Timers.xcdatamodel; sourceTree = "<group>"; };
 		E963AFED1F789EB80008EDEA /* TimersDirectoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimersDirectoryTableViewController.swift; sourceTree = "<group>"; };
 		E963AFEF1F78A09E0008EDEA /* StopWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 		E963AFF11F78A4010008EDEA /* Directory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
-		E9854B181F969B780030B533 /* UniversalExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UniversalExtentions.swift; path = "../../../../Swift Source Files/UniversalExtentions.swift"; sourceTree = "<group>"; };
+		E97AE201206D9BDD0014CE18 /* UniversalExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversalExtentions.swift; sourceTree = "<group>"; };
+		E97AE202206D9BDD0014CE18 /* FetchedResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedResultsTableViewController.swift; sourceTree = "<group>"; };
 		E9854B1A1F9AC5B60030B533 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		E99CDC011F9D2C4C00BE2018 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		E9A225DD1FA6C688002A7575 /* Moment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				E9AA69951F7756ED007F07FB /* AppDelegate.swift */,
-				E9854B181F969B780030B533 /* UniversalExtentions.swift */,
+				E97AE201206D9BDD0014CE18 /* UniversalExtentions.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -195,7 +195,7 @@
 		E9AA69CA1F775935007F07FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E9080D811F9690A300F8EEA6 /* FetchedResultsTableViewController.swift */,
+				E97AE202206D9BDD0014CE18 /* FetchedResultsTableViewController.swift */,
 				E9080D7D1F968C8C00F8EEA6 /* CustomTableViewCell.swift */,
 				E9854B1A1F9AC5B60030B533 /* TextView.swift */,
 				E9AA699F1F7756ED007F07FB /* Assets.xcassets */,
@@ -362,19 +362,19 @@
 				E9AA6A0A1F77614B007F07FB /* DiaryController.swift in Sources */,
 				E9AA69961F7756ED007F07FB /* AppDelegate.swift in Sources */,
 				E9080D7E1F968C8C00F8EEA6 /* CustomTableViewCell.swift in Sources */,
+				E97AE204206D9BDD0014CE18 /* FetchedResultsTableViewController.swift in Sources */,
 				E9E49B881FB015850034455F /* CollectionGroupViewController.swift in Sources */,
 				E963AFEE1F789EB80008EDEA /* TimersDirectoryTableViewController.swift in Sources */,
 				E9080D801F968D3400F8EEA6 /* MomentViewController.swift in Sources */,
-				E9080D821F9690A300F8EEA6 /* FetchedResultsTableViewController.swift in Sources */,
 				E9854B1B1F9AC5B60030B533 /* TextView.swift in Sources */,
 				E9AA6A131F7769CE007F07FB /* Diary.xcdatamodeld in Sources */,
 				E963AFF21F78A4010008EDEA /* Directory.swift in Sources */,
 				E9365AA41FAC0E50004BE58D /* TimersController.swift in Sources */,
 				E9AA6A0C1F77625D007F07FB /* TodaysDiaryTableViewController.swift in Sources */,
-				E9854B191F969B780030B533 /* UniversalExtentions.swift in Sources */,
 				E9AA6A101F776468007F07FB /* Diary.swift in Sources */,
 				E9E49B8A1FB018410034455F /* CollectionGroup.swift in Sources */,
 				E9A225DE1FA6C688002A7575 /* Moment.swift in Sources */,
+				E97AE203206D9BDD0014CE18 /* UniversalExtentions.swift in Sources */,
 				E9A225E21FA6D1E5002A7575 /* Folder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
